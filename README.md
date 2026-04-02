@@ -8,4 +8,4 @@ which cluster sizes show a significant drop in heterogeneity.
 The file elbow.py contains the classes for creating clustering models with methods for calculating elbow statistics and their p-values. There is also a method for plotting
 the heterogeneity, elbow statistics and p-values (once calculated) together in one diagram. A simple example of how to use these models can be seen in the Jupyter notebook 
 titled toy_example. And more intensive tests of the models can be found in the Jupyter notebook titled results. I repeat some of the tests performed by Pérez-Reche on both 
-real and synthetic data, but some of the real data sets they used were hard to find. So I only used ones that can be found in Sklearn.
+real and synthetic data, but some of the real data sets they used were hard to find. I only used data sets that come with Scikit-learn.
