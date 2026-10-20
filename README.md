@@ -1,6 +1,6 @@
 This repository includes methods for picking cluster sizes during unsupervised learning. It follows the ideas of Francisco J. Pérez-Reche in their paper 
 "The elbow statistic: Multiscale clustering statistical significance". An elbow statistic is created by calculating the negative second difference of cluster heterogeneity
-with respect to the number of clusters and normalizing it by dividing by the first difference of heterogeneity. The model selects cluster sizes with statistically significant 
+with respect to the number of clusters and normalizing it by dividing by the first difference of heterogeneity. This is effectively measuring the amount of curvature in the heterogeneity at a given cluster size. The model selects cluster sizes with statistically significant 
 elbow statistics. The p-values are estimated by performing Monte Carlo simulations where the data (or its principal components) are assumed to be uniformly 
 distributed. And then multiple hypothesis test methods for controlling either the Family Wise Error Rate or the False Discovery Rate are used to find thresholds for determining 
 which cluster sizes show a significant drop in heterogeneity.
